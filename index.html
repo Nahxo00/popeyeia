@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Popeye IA</title>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+<<<<<<< HEAD
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body class="d-flex flex-column min-vh-100">
+  <header>
+    <nav class="navbar text-white p-4 d-flex align-items-center justify-content-between navbar-transparent  navbar-bg-solid ">
+      <a class="d-flex align-items-center name-app" href="index.html">
+        <span class="h4 font-weight-bold" style="color: white;">Popeye IA</span>
+      </a>
+      <div>
+        <a href="sesion/login.php" class="btn btn-outline-light ml-2">Entrar App</a>
+      </div>
+    </nav>
+    <section class="hero-section d-flex align-items-center justify-content-center">
+      <div class="text-center">
+        <h1 class="display-4 font-weight-bold fade-in">Transforma tu cuerpo y mente</h1>
+        <p class="lead fade-in">Únete a nuestra comunidad de fitness y alcanza tus objetivos con nuestros programas personalizados.</p>
+        <a href="#" id="colorChangeButton" class="btn btn-primary btn-lg mr-2 fade-in btn-clicked">Empezar</a>
+=======
+  <style>
+    .fade-in {
+      animation: fadeIn 2s;
+    }
+    .slide-in {
+      animation: slideIn 1s;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+    @keyframes slideIn {
+      from { transform: translateY(100px); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
+    }
+    .hero-section {
+      background: url('https://source.unsplash.com/1600x900/?fitness,workout') no-repeat center center;
+      background-size: cover;
+      color: white;
+      text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+    }
+    .program-card img {
+      height: 200px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body class="d-flex flex-column min-vh-100">
+  <header class="bg-dark text-white p-4 d-flex align-items-center justify-content-between">
+    <a class="d-flex align-items-center" href="#">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mr-2">
+        <path d="M14.4 14.4 9.6 9.6"></path>
+        <path d="M18.657 21.485a2 2 0 1 1-2.829-2.828l-1.767 1.768a2 2 0 1 1-2.829-2.829l6.364-6.364a2 2 0 1 1 2.829 2.829l-1.768 1.767a2 2 0 1 1 2.828 2.829z"></path>
+        <path d="M21.5 21.5-1.4-1.4"></path>
+        <path d="M3.9 3.9-2.5-2.5"></path>
+        <path d="M6.404 12.768a2 2 0 1 1-2.829-2.829l1.768-1.767a2 2 0 1 1-2.828-2.829l2.828-2.828a2 2 0 1 1 2.829 2.828l1.767-1.768a2 2 0 1 1 2.829 2.829z"></path>
+      </svg>
+      <span class="h4 font-weight-bold">Fitness App</span>
+    </a>
+    <nav class="d-none d-lg-flex align-items-center">
+      <a href="#" class="text-white mx-2">Inicio</a>
+      <a href="sesion/login.php" class="btn btn-outline-light ml-2">Entrar App</a>
+    </nav>
+    <button class="btn btn-outline-light d-lg-none" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <line x1="4" x2="20" y1="12" y2="12"></line>
+        <line x1="4" x2="20" y1="6" y2="6"></line>
+        <line x1="4" x2="20" y1="18" y2="18"></line>
+      </svg>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link btn btn-outline-light ml-2" href='sesion/login.php'>Entrar App</a>
+        </li>
+      </ul>
+    </div>
+  </header>
+  <main class="flex-grow-1">
+    <section class="hero-section text-center d-flex align-items-center justify-content-center" style="height: 500px;">
+      <div>
+        <h1 class="display-4 font-weight-bold fade-in">Transforma tu cuerpo y mente</h1>
+        <p class="lead fade-in">Únete a nuestra comunidad de fitness y alcanza tus objetivos con nuestros programas personalizados.</p>
+        <a href="#" class="btn btn-primary btn-lg mr-2 fade-in">Empezar</a>
+>>>>>>> 471a5ae2fc3ee1456e89b839b979115958b6e31d
+        <a href="#" class="btn btn-outline-primary btn-lg fade-in">Más información</a>
+      </div>
+    </section>
+  </header>
+  <main class="flex-grow-1">
+    <section class="py-5" id="programas">
+      <div class="container text-center">
+        <h2 class="display-4 font-weight-bold">Nuestros Programas</h2>
+        <p class="text-secondary lead mx-auto" style="max-width: 700px;">Elige el programa que mejor se adapte a tus objetivos y necesidades.</p>
+        <div class="row mt-4">
+          <div class="col-md-4 mb-4 slide-in program-card">
+            <div class="card h-100">
+<<<<<<< HEAD
+              <img src="https://images.unsplash.com/photo-1517838277536-f5f99be501cd?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA==" alt="Entrenamiento de Fuerza" class="card-img-top">
+=======
+              <img src="https://source.unsplash.com/800x600/?strength,training" alt="Entrenamiento de Fuerza" class="card-img-top">
+>>>>>>> 471a5ae2fc3ee1456e89b839b979115958b6e31d
+              <div class="card-body">
+                <h3 class="h5 font-weight-bold">Entrenamiento de Fuerza</h3>
+                <p class="text-secondary">Desarrolla tu musculatura y mejora tu rendimiento con nuestros programas de entrenamiento de fuerza.</p>
+                <a href="#" class="btn btn-primary btn-programs">Más información</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4 slide-in program-card">
+            <div class="card h-100">
+<<<<<<< HEAD
+              <img src="https://wupfitnesscenter.es/wp-content/uploads/2023/03/Que-es-el-entrenamiento-cardiovascular.jpg" alt="Entrenamiento Cardiovascular" class="card-img-top">
+=======
+              <img src="https://source.unsplash.com/800x600/?cardio,exercise" alt="Entrenamiento Cardiovascular" class="card-img-top">
+>>>>>>> 471a5ae2fc3ee1456e89b839b979115958b6e31d
+              <div class="card-body">
+                <h3 class="h5 font-weight-bold">Entrenamiento Cardiovascular</h3>
+                <p class="text-secondary">Mejora tu resistencia y salud cardiovascular con nuestras sesiones de entrenamiento de cardio.</p>
+                <a href="#"  class="btn btn-primary btn-programs">Más información</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4 slide-in program-card">
+            <div class="card h-100">
+<<<<<<< HEAD
+              <img src="https://t.ly/ULQK1" alt="Yoga y Meditación" class="card-img-top">
+=======
+              <img src="https://source.unsplash.com/800x600/?yoga,meditation" alt="Yoga y Meditación" class="card-img-top">
+>>>>>>> 471a5ae2fc3ee1456e89b839b979115958b6e31d
+              <div class="card-body">
+                <h3 class="h5 font-weight-bold">Yoga y Meditación</h3>
+                <p class="text-secondary">Encuentra el equilibrio y la paz interior con nuestras sesiones de yoga y meditación.</p>
+                <a href="#" class="btn btn-primary btn-programs">Más información</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="py-5 bg-light">
+      <div class="container">
+        <div class="row g-4 align-items-center">
+          <div class="col-md-6 d-flex flex-column justify-content-center">
+            <div class="mb-3">
+              <span class="badge bg-primary text-white px-3 py-1">Tu APP con IA</span>
+            </div>
+            <h2 class="display-4 fw-bold">Tu Entrenador Personal de Fitness con IA</h2>
+            <p class="text-muted lead">
+              Nuestro asistente de IA está aquí para ayudarte a alcanzar tus objetivos de fitness. Proporciona rutinas de ejercicio personalizadas, realiza un seguimiento de tu progreso y brinda retroalimentación en tiempo real para mantenerte motivado y en el camino correcto.
+            </p>
+            <div class="d-grid gap-2 d-md-flex mt-4">
+              <a href="#" class="btn btn-primary btn-lg text-white btn-section-ai">Comenzar</a>
+              <a href="#" class="btn btn-outline-secondary btn-lg btn-section-ai-info">Más Información</a>
+            </div>
+          </div>
+<<<<<<< HEAD
+          <div class="col-md-6 d-flex justify-content-center">
+            <img
+              src="amit--e1651738222652.png"
+              alt="Entrenador de Fitness con IA"
+              class="img-fluid rounded chatbot-img"
+              style="max-width: 100%; object-fit: cover; height: 200px;"
+            />
+=======
+          <div class="col-md-6 mb-4 slide-in">
+            <div class="card bg-secondary h-100">
+              <div class="card-body text-white">
+                <h3 class="h5 font-weight-bold">Sesiones de Coaching Personalqweasd</h3>
+                <p class="text-light">Trabaja con nuestros entrenadores expertos para maximizar tus resultados y mantenerte motivado.</p>
+              </div>
+            </div>
+>>>>>>> 471a5ae2fc3ee1456e89b839b979115958b6e31d
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="bg-dark text-white py-4 text-center">
+    <div class="container">
+      <p>&copy; 2024 Popeye IA. Todos los derechos reservados.</p>
+      <nav>
+        <a href="#" class="text-white mx-2">Política de privacidad</a>
+        <a href="#" class="text-white mx-2">Términos de servicio</a>
+        <a href="#" class="text-white mx-2">Contacto</a>
+      </nav>
+    </div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script>
+    window.addEventListener('scroll', function() {
+      var navbar = document.querySelector('nav');
+      if (window.scrollY > 0) {
+        navbar.classList.add('navbar-fixed', 'navbar-bg-solid');
+      } else {
+        navbar.classList.remove('navbar-fixed', 'navbar-bg-solid');
+      }
+    });
+
+    document.getElementById('colorChangeButton').addEventListener('click', function() {
+      var button = this;
+      button.classList.add('btn-clicked', 'btn-no-hover');
+      
+      setTimeout(function() {
+        button.classList.remove('btn-clicked');
+        button.blur(); // Quitar el enfoque del botón
+        
+        // Quitar la clase de no-hover después de un tiempo para permitir hover nuevamente
+        setTimeout(function() {
+          button.classList.remove('btn-no-hover');
+        }, 500);
+      }, 500); // Cambia el color de nuevo después de 500 milisegundos (0.5 segundos)
+    });
+  </script>
+</body>
+</html>
